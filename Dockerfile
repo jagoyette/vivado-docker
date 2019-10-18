@@ -22,8 +22,8 @@ COPY --from=base /tools/Xilinx /tools/Xilinx
 
 RUN apt-get update && apt-get install -y \
     git \
-    build-essential &&
-    apt-get clean &&
+    build-essential && \
+    apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
 # Create a user
