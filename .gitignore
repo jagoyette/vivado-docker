@@ -1,0 +1,4 @@
+# Ignore Xilinx installation files
+Xilinx*.bin
+Xilinx*.tar.gz
+wi_authentication_key
