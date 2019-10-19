@@ -1,11 +1,5 @@
 FROM ubuntu:16.04 as base
 
-#RUN apt-get update && apt-get install -y \
-#    git \
-#    python python3 \
-#    build-essential 
-
-
 COPY install_config.txt /tmp/
 COPY Xilinx_Vivado_SDK_Web_2019.1_0524_1430_Lin64.bin /tmp/
 COPY wi_authentication_key /root/.Xilinx/
